@@ -1,27 +1,23 @@
 # WebForm
 Project Title: Student Form
 Project Description:
-This project is a Student Form designed to capture and manage student information. The form collects and stores student data into the STUDENT-TABLE of the SCHOOL-DB database. It uses JsonPowerDB (JPDB) as the backend database to ensure fast, efficient, and reliable storage and retrieval of student records.
+This project is a Student Form designed to capture and manage student information. The form collects and stores student data into the Student-TABLE of the Student-Rel database. It uses JsonPowerDB (JPDB) as the backend database to ensure fast, efficient, and reliable storage and retrieval of student records.
 
 Input Fields:
 The form includes the following fields for user input:
 
-Roll No – A unique identifier for each student (Primary Key)
+ID – A unique identifier for each student (Primary Key)
 
-Full Name – The complete name of the student
+Name – The complete name of the student
 
-Class – The academic class or grade of the student
+Email – The Email id of the student for sending the mails.
 
-Birth Date – The student's date of birth
-
-Address – The residential address of the student
-
-Enrollment Date – The date the student is officially enrolled
+Mobile No – The student's Mobile Number for contacting them.
 
 These fields help to maintain a detailed and structured student profile.
 
 Primary Key:
-Roll No is used as the Primary Key, which ensures each student entry is unique and helps in easy identification and retrieval of records.
+ID is used as the Primary Key, which ensures each student entry is unique and helps in easy identification and retrieval of records.
 
 Why JsonPowerDB (JPDB)?
 JsonPowerDB is chosen as the backend database for this project because of its unique and developer-friendly features:
